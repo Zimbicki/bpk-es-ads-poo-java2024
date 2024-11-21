@@ -42,26 +42,6 @@ public class Livro {
         return paginaAtual;
     }
 
-    public Boolean getConcluido() {
-        return concluido;
-    }
-
-    public Boolean getAberto() {
-        return aberto;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public void setConcluido(Boolean concluido) {
-        this.concluido = concluido;
-    }
-
-    public void setPaginaAtual(Integer paginaAtual) {
-        this.paginaAtual = paginaAtual;
-    }
-
     @Override
     public String toString() {
         return "Livro{" +
